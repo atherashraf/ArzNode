@@ -1,0 +1,121 @@
+
+#base-nav-top {
+  height: $top-nav-height;
+  padding: 0 10px 0 10px !important;
+  background-color: $theme-top-nav-bg-color;
+  color: $theme-top-nav-color;
+
+  #collapsibleNavbar.show {
+    background-color: $theme-top-nav-bg-color;
+    opacity: 0.8;
+  }
+
+  .logo {
+    height: $logo-height;
+    float: left;
+    display: inline-block;
+  }
+
+  button {
+    background-color: transparent;
+    border-color: #000000aa;
+    //color: $theme-top-nav-color;
+  }
+
+  button:hover, button:focus {
+    background-color: $theme-nav-on-focus-hover;
+  }
+
+  ul {
+    height: $top-nav-height;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+  }
+
+  a {
+    display: flex;
+    color: $theme-top-nav-color;
+    padding: $theme-nav-on-focus-hover-padding;
+    font-size: $theme-nav-font-size;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  a:hover, a:focus {
+    display: flex;
+    background-color: $theme-nav-on-focus-hover;
+  }
+
+  .dropdown-menu {
+    background-color: $theme-top-nav-bg-color;
+
+    a {
+      height: 2rem;
+    }
+  }
+}
+
+#base-nav-bottom {
+  height: $bottom-nav-height;
+  padding: 0px !important;
+  background-color: $theme-bottom-nav-bg-color;
+  color: $theme-bottom-nav-color;
+
+  button {
+    background-color: transparent;
+    border-color: #000000aa;
+    //color: $theme-top-nav-color;
+  }
+
+  button:hover, button:focus {
+    background-color: $theme-nav-on-focus-hover;
+  }
+
+  ul {
+    height: 100%;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+  }
+
+  a {
+    display: flex;
+    color: $theme-bottom-nav-color;
+    padding: $theme-nav-on-focus-hover-padding;
+    font-size: $theme-nav-font-size;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  a:hover, a:focus {
+    background-color: $theme-nav-on-focus-hover;
+  }
+
+  button:hover, button:focus {
+    background-color: $theme-nav-on-focus-hover;
+  }
+
+  .dropdown-menu {
+    background-color: $theme-bottom-nav-bg-color;
+  }
+}
+
+
+
+
+
+

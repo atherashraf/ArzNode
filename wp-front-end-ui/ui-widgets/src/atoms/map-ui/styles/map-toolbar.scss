@@ -1,0 +1,34 @@
+$svg-size: 18px;
+$color: white;
+$iconPath: '/static/spatial_app/svg/';
+$layerSwitcherIcon: $iconPath+'layers-icon-fill-1.svg';
+$backIcon: $iconPath+ 'back-arrow-icon.svg';
+$measureIcon: $iconPath + 'measure-tool.svg';
+$addLayerIcon: $iconPath + 'add-layer-icon.svg';
+$globeIcon: $iconPath + 'globe-icon.svg';
+
+@mixin icon($icon-url) {
+  width: $svg-size;
+  height: $svg-size;
+  background-color: $color;
+  -webkit-mask: url($icon-url) no-repeat center;
+  mask: url($icon-url) no-repeat center;
+}
+
+.layers-switcher-icon {
+  @include icon($layerSwitcherIcon)
+
+}
+
+.back-icon {
+  @include icon($backIcon)
+}
+.measure-icon {
+  @include icon($measureIcon)
+}
+.add-layer-icon{
+  @include  icon($addLayerIcon)
+}
+.map-3d-icon{
+  @include icon($globeIcon)
+}

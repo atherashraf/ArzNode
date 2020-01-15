@@ -1,0 +1,9 @@
+def function_name(request):
+    try:
+        #add your code here
+
+    except Exception as e:
+        redirect_path = Log_Error.log_view_error_message(request, e)
+        return redirect(redirect_path)
+    messages.add_message(request, messages.SUCCESS, "Course code assigned...")
+    return render(request, "any_template.html")

@@ -1,0 +1,40 @@
+
+{% load i18n %}
+
+{% if next_page is None %}
+    <form class="form-signin" role="form" action="/accounts/login/?next=/" method="post">
+{% else %}
+    <form class="form-signin" role="form" action="/accounts/login/?next={{ next_page }}" method="post">
+{% endif %}
+
+{#<form class="form-signin" method="post" action="/accounts/login/">#}
+<div class="modal-body">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="id_username" class="sr-only">{% blocktrans %} Username {% endblocktrans %}</label>
+        <input id="id_username" class="form-control" name="username"
+               placeholder="{% trans "Username" %}" type="text"/>
+    </div>
+    <div class="form-group">
+        <label for="id_password" class="sr-only">{% blocktrans %} Password {% endblocktrans %}:</label>
+        <input id="id_password" class="form-control" name="password" placeholder="Password"
+               type="password"/>
+    </div>
+    <div class="form-group">
+        {#            <label class="checkbox">#}
+        <input type="checkbox"/> {% blocktrans %} Remember Me {% endblocktrans %}
+        {#            </label>#}
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="submit" class="btn btn-site btn-block">{% blocktrans %} Sign in {% endblocktrans %}</button>
+    {#    <button style="margin-top: 10px !important;" type="button" class="btn  col-md-12"><a#}
+    {#            href="/accounts/linkedin/registration/?process=registration"><i style="font-size:25px" class="fa fa-linkedin-square"></i>#}
+    {#        Login#}
+    {#        with LinkedIn</a></button>#}
+    {#    <button style="margin-top: 10px !important;" type="button" class="btn col-md-12"><a#}
+    {#            href="/accounts/google/registration/?process=registration"><i style="font-size:25px" class="fa fa-google-plus-square"></i>#}
+    {#        Login#}
+    {#        with Google</a></button>#}
+</div>
+</form>

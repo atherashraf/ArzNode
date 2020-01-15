@@ -1,0 +1,11 @@
+{% extends "admin/change_list.html" %}
+{% load i18n admin_static %}
+{% load material_form %}
+{% block object-tools-items %}
+{{ block.super }}
+<li>
+
+{#{% url 'admin:myurl' %}#}
+    <a href="{% url 'admin:add_model_layer' %}" class="btn btn-high btn-success">Add Model Layer</a>
+</li>
+{% endblock %}

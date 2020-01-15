@@ -1,0 +1,18 @@
+1. create new module using
+    manage.py startapp <app_label>
+2. add <app_label> in INSTALLED_APP  in setting.py
+3. include app urls.py file in the digitalarz
+    path('<url_part>/', include('<app_label>.urls')),
+4. creating a templates/base folder in your new app and then create <app_shortcode>_site_base.html file
+5  extend it with digitalarz base.html file
+6  Add top navbar items and user drop down items using javascript script
+    {% block top_navbar_nav_items_script %}
+        topNav.navItems.push({"name": "Layer", "href": "#"});
+        topNav.navItems.push({"name": "Map", "href": "#"});
+    {% endblock %}
+    {% block top_navbar_users_drop_down_items_script %}
+        topNav.dropdownItems.push({"name": "Manage_ss", "href": "/admin"})
+
+    {% endblock %}
+
+

@@ -1,0 +1,118 @@
+.ol-control button {
+  display: block;
+  margin: 1px;
+  padding: 0;
+  color: white;
+  font-size: 1.14em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  height: 1.375em;
+  width: 1.375em;
+  line-height: 0.4em;
+  background-color: #447256 !important;
+  border: none;
+  border-radius: 2px;
+}
+
+.hideOpacity .layerswitcher-opacity {
+  display: none;
+}
+
+.hideOpacity .ol-layerswitcher .layerup {
+  height: 1.5em;
+}
+
+.showPercent .layerSwitcher .ol-layerswitcher .layerswitcher-opacity-label {
+  display: block;
+}
+
+.ol-header > div {
+  width: 100%;
+}
+
+.toggleVisibility {
+  padding-left: 1.6em;
+  cursor: pointer;
+  border-bottom: 2px solid #369;
+  margin-bottom: 0.5em;
+}
+
+.toggleVisibility:before {
+  background-color: #fff;
+  border: 2px solid #369;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 1.2em;
+  left: 0.1em;
+  margin: 0;
+  position: absolute;
+  width: 1.2em;
+}
+
+.toggleVisibility.show:before {
+  background: #369;
+}
+
+/**
+  * The zoomslider in the third ol-map shall be horizontal, placed in the top-right
+  * corner, smaller and orange.
+  */
+.ol-zoomslider {
+  top: 58px;
+  left: auto;
+  right: 8px;
+  background-color: rgba(255, 69, 0, 0.2);
+  width: 200px;
+  height: 15px;
+  padding: 0;
+  box-shadow: 0 0 5px orangered;
+  border-radius: 20px;
+}
+
+.ol-zoomslider:hover {
+  background-color: rgba(255, 69, 0, 0.3);
+}
+
+.ol-zoomslider-thumb {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  filter: none;
+  background-color: rgba(255, 69, 0, 0.6);
+  border-radius: 20px;
+}
+
+a.ol-zoomslider-handle:hover {
+  background-color: rgba(255, 69, 0, 0.7);
+}
+
+.rotate-north {
+  top: 65px;
+  left: 0.5em;
+}
+
+.toolbar-control {
+  top: 10px;
+  left: 70px;
+  width: auto;
+  height: auto;
+  background-color: #00000055 !important;
+}
+
+.ol-touch .rotate-north {
+  top: 80px;
+}
+
+ul.toolbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.toolbar-list li {
+  display: inline;
+  float: left;
+}
+
+/*# sourceMappingURL=ol-map-vm.css.map */

@@ -1,0 +1,15 @@
+{% extends "admin/base_site.html" %}
+{#{% load material_form %}#}
+{% load static %}
+{% block content %}
+    <form action="{% url "admin:upload_shape_file" model_name%}" enctype="multipart/form-data" method="post">
+        Upload shape file for {{ model_name }}
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <input type="hidden" name="model_name" value="{{ model_name }}">
+        <input type="hidden" name="next" value="{{ request.path }}">
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

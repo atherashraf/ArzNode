@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: "Roboto", "sans-serif";
+}
+
+#full-page-contents {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+#div-toolbar {
+  height: 55px;
+}
+
+#div-map-view {
+  height: calc(100vh - 55px - 20px);
+}
+
+#div-statusbar {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  top: auto;
+  bottom: 0px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=map-widget.css.map */

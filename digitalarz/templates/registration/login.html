@@ -1,0 +1,12 @@
+{% extends "base/base.html" %}
+{% block main_contents %}
+
+    <div class="container" style=" padding: 30px; display: table">
+        <div class="card">
+            <div class="card-hearder bg-site" style="padding: 15px"> Sign In</div>
+            <div class="card-body">
+                {% include "registration/login_form.html" %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,7 @@
+(async () => {
+    let response = await fetch(url);
+    // let data = await response.json();
+    // let data = await response.arrayBuffer();
+    let data = await response.text();
+
+})();

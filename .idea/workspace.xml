@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ded0f024-aa07-41b0-9059-5d5102762608" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/digitalarz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/templates/admin/add_model_as_layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/templates/admin/layer/layer_change_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/templates/admin/layer/upload_shapefile_change_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/templates/admin/upload_shape_file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/templates/layer_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/templates/layer_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/layer/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/map/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spatial_app/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_components/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_components/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_components/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_components/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_components/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_components/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_components/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-ui/bottom-appbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-ui/dialog-box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-ui/message-snackbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-ui/side-drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-ui/sigin-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-ui/signin-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/base-ui/top-appbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/index-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/Calendar-widget.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/alert-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/default-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/edit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/excel-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/pdf-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/pivot-table-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/rss-feed-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/upload-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/icon/zoom-in-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/info-grid-vm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/info-jqx-grid-cmp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/store/grid-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/backImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/backgroundTop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_black_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_blackhover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_blackhover_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_blackpressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_blackpressed_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_blueenergy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_darkblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_darkbluehover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/bg_darkbluepressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/black_gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/blackbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_blue_indeterminate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_indeterminate_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_indeterminate_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_indeterminate_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_lightblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_lightblue_indeterminate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/check_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/close_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/close_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/close_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/colorpicker/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/colorpicker/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/colorpicker/bar-hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/colorpicker/bar-saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/colorpicker/map-hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/colorpicker/map-saturation-overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/colorpicker/map-saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/common.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/crosshair-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/crosshair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_glass_20_555555_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_glass_40_0078a3_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_glass_40_ffc73d_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_gloss-wave_25_333333_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_inset-soft_25_000000_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-bg_inset-soft_30_f58400_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-icons_4b8e0b_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-icons_a83300_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-icons_cccccc_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkness/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/darkred_gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/dragcancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/html_editor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/html_editor_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-calendar-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-calendar-metro-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-calendar-metro-yellow-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-calendar-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-cancel-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-delete-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-down-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-down-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-down-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-edit-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-first-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-first-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-first-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-info-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-last-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-last-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-last-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-left-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-left-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-left-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-menu-minimized-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-menu-minimized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-menu-small-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-menu-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-plus-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-recurrence-exception-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-recurrence-exception.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-recurrence-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-recurrence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-right-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-right-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-right-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-save-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-showpassword-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-showpassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-sort-asc-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-sort-asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-sort-desc-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-sort-desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-sort-remove-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-sort-remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-time-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-up-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-up-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-up-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/icon_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_diagonals-small_0_aaaaaa_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_diagonals-thick_15_444444_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_diagonals-thick_95_ffdc2e_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_glass_55_fbf5d0_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_highlight-hard_30_285c00_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_highlight-soft_33_3a8104_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_highlight-soft_50_4eb305_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_highlight-soft_60_4ca20b_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-bg_inset-soft_10_285c00_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-icons_4eb305_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-icons_72b42d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/le-frog/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/icon-first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/icon-last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/lightness/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/loader-small.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-down-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-first-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-last-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-left-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-right-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-up-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material-icon-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material_check_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/material_check_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/menubutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-down-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-first-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-last-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-left-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-right - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-right-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-up-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/metro-icon-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/multi-arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/office-icon-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/office-icon-first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/office-icon-last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/office-icon-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/office-icon-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/office-icon-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_flat_55_c0402a_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_flat_55_eeeeee_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_glass_100_f8f8f8_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_glass_35_dddddd_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_glass_60_eeeeee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_inset-hard_75_999999_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-bg_inset-soft_50_c9c9c9_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-icons_3383bb_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-icons_70b2e1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-icons_999999_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/overcast/ui-icons_fbc856_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pin-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pin-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pin-lightblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pin-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pin-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pinned-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pinned-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pinned-lightblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pinned-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pinned-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pinned.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/plus_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/pointer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/rangebar_classic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/rangebar_darkblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/rangebar_shinyblack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/rangebar_summer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/red_arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/red_arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/red_gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/icon-first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/icon-last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_flat_55_fbec88_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_glass_75_d0e5f5_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_glass_85_dfeffc_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_inset-hard_100_f5f8f9_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-icons_217bc0_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-icons_469bdd_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-icons_6da8d5_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-icons_d8e7f3_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/redmond/ui-icons_f9bd01_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/roundbg_check_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/roundbg_check_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/roundbg_check_indeterminate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/roundbg_check_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/roundbg_classic_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/roundbg_classic_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/roundbg_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/search_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/smoothness/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sortasc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sortascbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sortdesc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sortdescbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sortremove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/star_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/star_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_flat_55_999999_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_glass_45_0078ae_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_glass_55_f8da4e_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_glass_75_79c9ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_gloss-wave_75_2191c0_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-icons_0078ae_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-icons_056b93_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-icons_d8e7f3_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-icons_e0fdff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-icons_f5e175_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-icons_f7a50d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/start/ui-icons_fcd113_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/stripes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_diagonals-medium_20_d34d17_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_gloss-wave_45_817865_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_gloss-wave_60_fece2f_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_gloss-wave_70_ffdd57_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_gloss-wave_90_fff9e5_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_highlight-soft_100_feeebd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-bg_inset-soft_30_ffffff_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-icons_3d3d3d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-icons_bd7b00_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-icons_d19405_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-icons_eb990f_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-icons_ed9f26_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-icons_fadc7a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/sunny/ui-icons_ffe180_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/track_classic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/track_darkblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/track_shinyblack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/track_summer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/wp_check_indeterminate_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/images/wp_check_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.android.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.arctic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.blackberry.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.classic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.dagreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.darkblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.energyblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.fresh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.glacier.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.highcontrast.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.material-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.material-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.metro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.metrodark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.office.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.shinyblack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.summer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-darkness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-le-frog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-lightness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-overcast.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-redmond.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-smoothness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-start.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.ui-sunny.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.web.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/styles/jqx.windowsphone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/layer-ui/layer-attribute-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/layer-ui/layer-list-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/layer-ui/layer-view-panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/png/data-table-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/png/default-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/png/drawing-tool-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/png/file-upload-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/png/globe-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/png/measure-tool-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/png/select-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/svg/data-table-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/svg/drawing-tool-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/svg/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/svg/measure-tool-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/svg/select-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/icons/svg/upload-file-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-output.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-toolbar-items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/controls/rotate-north-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/controls/toolbar-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/interactions/drawing-tool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/interactions/i-interaction-tool.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/interactions/select-tool.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/ol-map-vm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/styles/ol-map-vm.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/ui-utils/calendar-menu-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/ui-utils/pivot-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/base-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/cesium-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/index-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/layer-list-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/layer-view-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/ol-map-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/pivot-table-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/signin-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/static/icons/full-screen-old.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/static/icons/full-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/static/icons/full-screen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/static/styles/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/static/styles/materialui-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/css/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/css/app-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/css/app-base.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/css/app-base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/css/map-widget.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/img/noimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/js/basic-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/js/layer-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/js/snow-avalanche-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/js/wmp-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/store/app-store-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/store/map-ui-store-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/store/pivot-table-store-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/store/wmp-ui-store-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/base.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/cesium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/layer-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/layer-list.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/layer-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/layer-view.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/signin-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/templates/signin-page.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/tutorial/asyn_await_ajax" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/tutorial/general_class_structure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/webpack-build-script.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/webpack-start-script.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/layer/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/layer/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/layer/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_components/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/layer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/layer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/layer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/layer/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/local_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/local_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/map/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/map/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/map/templates/sa_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/map/templates/sa_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/micro_services/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/micro_services/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/micro_services/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/micro_services/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spatial_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/spatial_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/jqx-widgets/info-jqx-grid.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-statusbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-statusbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-toc.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-toc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/map-toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/styles/materialui-styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/styles/ol-map-vm.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/styles/ol-map-vm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/styles/ol-map-vm.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/styles/ol-map-vm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/styles/ol-map-vm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/styles/ol-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/styles/ol-styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/styles/ol-tool.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/styles/ol-tool.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/tools/components/add-layer-icon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/tools/components/map-3d-icon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/tools/components/measure-tool-icon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/tools/interactions/draw-tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/interactions/draw-tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/tools/interactions/measure-tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/interactions/measure-tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/tools/interactions/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/ol-map/interactions/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/atoms/map-ui/view-models/ol-map-vm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/base_app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/course_allocation_app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/map-widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/styles/map-widget.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/css/map-widget.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/styles/map-widget.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/molecules/styles/map-widget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/css/map-widget.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/organisms/base_app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/organisms/course_allocation_app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/organisms/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/organisms/map-widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/store/map-widgets-store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/digitalarz/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/img/da-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/digitalarz/img/signin.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src/static/components/img/signin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/digitalarz/js/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/digitalarz/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/digitalarz/js/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/add-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/add-layer-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/back-arrow-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/layers-icon-fill-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/layers-icon-fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/layers-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/login-button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/static/spatial_app/svg/measure-tool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspace\PyCharm\digitalarz\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W6Fc5dAW3SI4LpGPIFZ8xUjIkA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-front-end-ui/ui-widgets/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\PyCharm\digitalarz\wp-front-end-ui\ui-widgets\src" />
+      <recent name="D:\workspace\PyCharm\digitalarz" />
+      <recent name="D:\workspace\PyCharm\digitalarz\wp-front-end-ui\ui-widgets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="digitalarz" type="Python.DjangoServer" factoryName="Django server">
+      <module name="digitalarz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ded0f024-aa07-41b0-9059-5d5102762608" name="Default Changelist" comment="" />
+      <created>1578462213748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578462213748</updated>
+      <workItem from="1578462215509" duration="672000" />
+      <workItem from="1579112137756" duration="3284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579113671502">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1579113671502" />
+    <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1578462883443">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578462883443" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1579113734607">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579113734607" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+{% load i18n %}
+<form action="{% url "account_logout" %}" id="logout_form" method="post">
+    {% csrf_token %}
+    <a class="btn btn-warning btn-block" href="javascript:{}"
+       onclick="document.getElementById('logout_form').submit();">{% trans "Log out" %}</a>
+</form>
+
+{#<a href="{% url 'logout' %}?next={{ request.path | urlencode }}">{% trans "Logout" %}</a>#}

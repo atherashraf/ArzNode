@@ -1,0 +1,6 @@
+extends base
+block main_contents
+    form(method="post" action="/accounts/login/?next=http://127.0.0.1:8123/")
+        input(type="hidden" name="csrfmiddlewaretoken"
+            value="vwOoMSg7jjC8MalY0vWCyVogCoIhRSulExFltrfzil5sFeXcPmJ3btBQh0NZWVbd")
+        div(id="div-login-form")

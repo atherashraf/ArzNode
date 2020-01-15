@@ -1,0 +1,24 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block extra_contents %}
+<div id="map-container" style="width:100%; height:100%; visibility: hidden"></div>
+{% endblock %}
+{% block extra_scripts %}
+    <script>
+        config.wfsURL = "{% url 'wfs_geojson_service' None %}";
+        config.wfsURL = config.wfsURL.substr(0, config.wfsURL.length - 5);
+        config.jqxGridDataURL = "{% url 'jqx_grid_layer_data'  None%}";
+        config.jqxGridDataURL = config.jqxGridDataURL.substr(0, config.jqxGridDataURL.length - 5);
+        config.initLayers = []
+        config.mainLayerName = "{{ layerName }}";
+        let initLayerInfo = {}
+        initLayerInfo.name = "{{ name }}";
+        initLayerInfo.layerName = "{{ layerName }}";
+        initLayerInfo.appLabel = "{{ appLabel }}"
+        initLayerInfo.modelName = "{{ modelName }}";
+        initLayerInfo.category = "{{ category }}";
+        config.initLayers.push(initLayerInfo);
+    </script>
+    <script src="{% static "components/js/layerView.bundle.js" %}"></script>
+    <script src="{% static "components/js/olMap.bundle.js" %}"></script>
+{% endblock %}

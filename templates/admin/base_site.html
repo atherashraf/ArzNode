@@ -1,0 +1,41 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% load i18n %}
+{% block title %}Digital arz {% endblock %}
+{% block extrastyle %}
+    <style>
+        #header {
+            min-height: 60px !important;
+        }
+
+        #footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #417690;
+            z-index: 1000;
+        }
+
+    </style>
+{% endblock %}
+{% block extrahead %}
+
+{% endblock %}
+{% block branding %}
+    <h1 id="site-name" style="padding-bottom:5px;">
+        {% if 'PUCIT' in site_header %}
+            <a href="{% url 'admin:index' %}"><img src={% static "digitalarz/img/logo.png" %}  height="45"></a>
+        {% endif %}
+        {#        <a href="{% url 'admin:index' %}"><img src={% static "assets/img/piupnd.png" %}  height="45" width="55"></a>#}
+        <SPAN STYLE="margin-left: 5px">{{ site_title }}</SPAN></h1>
+
+{% endblock %}
+{% block footer %}
+    <div id="footer" style="padding:3px">
+        <a href="https://www.linkedin.com/in/ather-ashraf/?originalSubdomain=pk"
+           style="font-size: 12px;padding: 0px ; margin : 0px">Powered by Dr. Ather Ashraf</a>
+
+    </div>
+
+{% endblock %}

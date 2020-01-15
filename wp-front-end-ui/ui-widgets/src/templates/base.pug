@@ -1,0 +1,20 @@
+html
+    title Snow Avalanche
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon" href="/static/components/img/favicon.ico")
+    link(rel="stylesheet" href="/static/components/css/app-base.css")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css")
+    block extra_styles
+    script(src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL")
+    script(src='/static/js/basic-config.js')
+    block extra_scripts
+    body
+        div(id="full-page-contents")
+        nav(id="nav-topbar")
+        div(id="div-main-contents")
+            block main_contents
+        div(id="div-side-drawer")
+        nav(id="nav-bottombar")
+

@@ -1,0 +1,41 @@
+$toolbar-height: 55px;
+$statusbar-height: 20px;
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: 'Roboto', 'sans-serif';
+  //overflow: hidden;
+}
+#full-page-contents{
+  min-height: 100vh;
+  width: 100vw;
+
+}
+//#ol-map-panel {
+//  background-color: #5b80b2;
+//  color: #fefefe;
+//  height: 100vh;
+//  width: 100vw;
+//}
+#div-toolbar {
+  //background-color: #0d0d0d;
+  height: $toolbar-height;
+}
+
+#div-map-view {
+  //background-color: #0d47a1;
+  height: calc(100vh - #{$toolbar-height} - #{$statusbar-height});
+}
+
+#div-statusbar {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  top: auto;
+  bottom: 0px;
+  height: $statusbar-height;
+}

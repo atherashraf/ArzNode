@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Testing...</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 minimum-scale=1"/>
+    <title>{{ SITE_NAME }} {% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{% static "digitalarz/img/favicon.ico" %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+    <link rel="stylesheet" href="{% static "vendor/material-bootstrap/css/bootstrap.min.css" %}"/>
+    <link rel="stylesheet" href="{% static "vendor/material-bootstrap/css/mdb.min.css" %}"/>
+
+    <script src="{% static "vendor/material-bootstrap/js/jquery-3.4.1.min.js" %}"></script>
+    <script src="{% static "vendor/material-bootstrap/js/popper.min.js" %}"></script>
+    <script src="{% static "vendor/material-bootstrap/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "vendor/material-bootstrap/js/mdb.min.js" %}"></script>
+    {#    <script src="{% static "vendor/react/react.production.min.js" %}"></script>#}
+    {#    <script src="{% static "vendor/react/react-dom.production.min.js" %}"></script>#}
+</head>
+<body>
+<div class="container">
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown Example
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+        </ul>
+    </div>
+    <button id="btn-test">Test</button>
+    <div id="div-test" class="col-6" style="background-color: #0f6674; height: 50px"></div>
+</div>
+<script>
+
+    window.onload = function () {
+        document.getElementById('btn-test').addEventListener('click', () => {
+            val = sum(11, 7, 3);
+            alert(val);
+        });
+
+        let test = function (a, b, c) {
+            {#let a=22, b=1, c=3;#}
+            let sum = a + b + c;
+            alert(sum)
+        }
+        let sum = (a, b, c) => {
+            return a + b + c;
+        }
+    }
+    let event = new Event('build');
+
+    // Listen for the event.
+    let elem = document.getElementById('div-test');
+    elem.addEventListener('build', function (e) {
+        elem.innerText = 'Welcome to the new event' ;
+    }, true);
+
+    // Dispatch the event.
+    elem.addEventListener('mouseover', function (e) {
+        elem.dispatchEvent(event);
+    });
+
+</script>
+</body>
+</html>
+

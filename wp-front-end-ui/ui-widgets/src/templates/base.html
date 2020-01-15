@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Snow Avalanche</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/static/components/img/favicon.ico">
+    <!--<link rel="stylesheet" href="/static/components/css/app-base.css"/>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>-->
+    <script>
+        /**
+         * Base Configuration Settings.
+         **/
+        config = {};
+        config.uri = "http://localhost:8123";
+        config.accountsURL = '/da/'
+        config.logoPath = "/static/components/img/da-logo.png";
+        config.appDefaultColor = '#7c9884'
+        config.statusbarHeight = 25;
+        config.toolbarHeight = 65;
+
+        config.nextPage = null;
+        config.userInfo = {'user_name': 'akahsu', 'session_key': 'fv29nluvf7q0nc805zp9mowhm55qi7kq'};
+        config.csrf_token = "GmcLp0prFojqzqIbHo9DosFgapfPvxtpw9fejBEODs1Yv3NOOAemsFYKG8qVpa1d";
+
+        config.navItems = [
+            {'name': 'Home', 'href': '/', 'icon': 'fa fa-home'}, {
+                'name': 'Layers',
+                'href': '/sa/layer/layer_list/',
+                'icon': 'fa fa-list'
+            }];
+        config.userItems = [
+            {
+                'name': 'Manage',
+                'href': 'admin/',
+                'icon': 'fa fa-database'
+            }, {
+                'name': 'Manage Spatial Data',
+                'href': 'spatial_data_admin/',
+                'icon': 'fa fa-database'
+            }, {'name': 'Sign out', 'href': 'accounts/logout/', 'icon': 'fa fa-sign-out'}];
+
+        /**
+         *
+         * Layer configuration Setting...
+         */
+        config.wfsURL = "/sa/gis/wfs/geojson/"; //+ config.layerName + "/";
+
+    </script>
+    <script src="/static/js/layer-config.js"></script>
+  <!--  <script src="/static/js/wmp-config.js"></script> -->
+
+</head>
+
+<body>
+<div id="full-page-contents">
+    <nav id="nav-topbar"></nav>
+    <div id="div-main-contents">
+        <form method="post" action="/accounts/login/?next=http://127.0.0.1:8123/">
+            <input type="hidden" name="csrfmiddlewaretoken"
+                   value="vwOoMSg7jjC8MalY0vWCyVogCoIhRSulExFltrfzil5sFeXcPmJ3btBQh0NZWVbd">
+            <div id="div-login-form"></div>
+        </form>
+    </div>
+    <div id="div-side-drawer"></div>
+    <nav id="nav-bottombar"></nav>
+    <!--<div id="div-message"></div>-->
+</div>
+
+</body>
+
+</html>

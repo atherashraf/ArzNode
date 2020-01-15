@@ -1,0 +1,32 @@
+import * as React from "react";
+import {connect} from "react-redux";
+import {withStyles, withTheme} from "@material-ui/core";
+import {styles} from "../../molecules/styles/materialui-styles";
+import PropTypes from "prop-types";
+
+
+class SigninForm extends React.PureComponent {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return;
+    }
+}
+
+SigninForm.propTypes = {
+    classes: PropTypes.object.isRequired,
+};
+const mapState2Props = (state) => {
+    return state;
+};
+const mapDispatchToProps = (dispatch) => {
+    return {
+        handleSignedIn(msg) {
+            let user = {username: 'Ather'}
+            dispatch({type: 'SIGNED_IN', user: user})
+        }
+    }
+}
+export default connect(mapState2Props, mapDispatchToProps)(withStyles(styles)(withTheme(SigninForm)));

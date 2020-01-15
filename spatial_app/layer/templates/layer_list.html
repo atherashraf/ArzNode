@@ -1,0 +1,8 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block extra_scripts %}
+    <script>
+        config.layerInfos = {{ layerInfo|safe }};
+    </script>
+    <script src="{% static "components/js/layerList.bundle.js" %}"></script>
+{% endblock %}

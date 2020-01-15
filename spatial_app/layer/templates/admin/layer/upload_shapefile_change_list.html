@@ -1,0 +1,10 @@
+{% extends "admin/change_list.html" %}
+{% load i18n admin_static %}
+{% block object-tools-items %}
+{{ block.super }}
+<li>
+
+{#{% url 'admin:myurl' %}#}
+    <a href="{% url 'admin:upload_shape_file' model_name %}" class="btn btn-high btn-success">Upload Shape File </a>
+</li>
+{% endblock %}

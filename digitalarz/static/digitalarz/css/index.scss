@@ -1,0 +1,13 @@
+@import "_variables";
+
+#main-contents {
+  background-image: url('../img/da-background.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+#blackout-div {
+  min-height: calc(100vh - #{$top-nav-height} - #{$bottom-nav-height});
+  width: 100vw;
+  background-color: #0d0d0d66;
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+//    "target": "es6",
+    "moduleResolution": "node",
+    "noResolve": false,
+    "removeComments": true,
+    "allowJs": true,
+    "outDir": "./build/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "target": "es5",
+    "jsx": "react"
+  },
+//  "exclude": [
+//    "./node_modules/**/*"
+//  ],
+  "include": [
+    "./src/*"
+  ]
+}

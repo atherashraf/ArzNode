@@ -1,0 +1,11 @@
+{% extends "old/base/base.html" %}
+{% load static %}
+{% block full_body %}
+    <div id="div-toolbar"></div>
+    <div id="div-map-view"></div>
+    <div id="div-toc"></div>
+    <div id="div-statusbar"></div>
+{% endblock %}
+{% block extra_scripts %}
+    <script src="{% static "spatial_app/map-widget.js" %}"></script>
+{% endblock %}

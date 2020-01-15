@@ -1,0 +1,24 @@
+$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-color: #333;
+
+$theme-header-bg-color: #69899f;
+$theme-header-border-color: #334852;
+$theme-header-color: #f5dd5d;
+
+$theme-footer-bg-color: $theme-header-bg-color;
+$theme-footer-border-color: $theme-header-border-color;
+$theme-footer-color: $theme-header-color;
+
+$logo-height: 45px;
+$top-nav-height: 65px;
+$bottom-nav-height: 25px;
+
+$theme-top-nav-bg-color: $theme-header-bg-color;
+$theme-top-nav-color: $theme-header-color;
+
+$theme-bottom-nav-bg-color: $theme-footer-bg-color;
+$theme-bottom-nav-color: $theme-footer-color;
+
+$theme-nav-on-focus-hover: #00000044;
+$theme-nav-font-size: 0.7rem;
+$theme-nav-on-focus-hover-padding: 0 10px 0 10px;

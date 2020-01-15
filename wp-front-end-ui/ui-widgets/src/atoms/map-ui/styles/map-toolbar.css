@@ -1,0 +1,41 @@
+.layers-switcher-icon {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  -webkit-mask: url("/static/spatial_app/svg/layers-icon-fill-1.svg") no-repeat center;
+  mask: url("/static/spatial_app/svg/layers-icon-fill-1.svg") no-repeat center;
+}
+
+.back-icon {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  -webkit-mask: url("/static/spatial_app/svg/back-arrow-icon.svg") no-repeat center;
+  mask: url("/static/spatial_app/svg/back-arrow-icon.svg") no-repeat center;
+}
+
+.measure-icon {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  -webkit-mask: url("/static/spatial_app/svg/measure-tool.svg") no-repeat center;
+  mask: url("/static/spatial_app/svg/measure-tool.svg") no-repeat center;
+}
+
+.add-layer-icon {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  -webkit-mask: url("/static/spatial_app/svg/add-layer-icon.svg") no-repeat center;
+  mask: url("/static/spatial_app/svg/add-layer-icon.svg") no-repeat center;
+}
+
+.map-3d-icon {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  -webkit-mask: url("/static/spatial_app/svg/globe-icon.svg") no-repeat center;
+  mask: url("/static/spatial_app/svg/globe-icon.svg") no-repeat center;
+}
+
+/*# sourceMappingURL=map-toolbar.css.map */
