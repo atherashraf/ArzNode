@@ -10,7 +10,7 @@ django-simple-history==2.7.3
 geobuf==1.1.1
 grpcio==1.24.1
 grpcio-tools==1.24.1
-Pillow==6.2.0
+Pillow==8.1.1
 protobuf==3.10.0
 psycopg2==2.8.3
 pytz==2019.2
